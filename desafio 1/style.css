@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-image: url(imagenes/cyber-security-3400657_1280.jpg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background: radial-gradient(#182aca, #1e5e92);
+}
+
+header img{
+    width: 100px;
+    height: 50px;
+    margin-left: 43%;
+    padding: 5px;
+}
+
+main{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    width: 100%;
+    height: 6px;
+    padding: 1em 0;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin-top: auto;
+}
+
+section{
+    height: 100%;
+}
+
+.parte1{
+    width: 50%;
+}
+
+.parte2{
+    width: 50%;
+}
+
+.textarea{
+    width: 80%;
+    height: 70%;
+    resize: none;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 0px;
+    box-shadow: 0px 10px 10px black;
+}
+
+.btns{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn{
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    background: radial-gradient(#3b48bb, #6a95b8);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px #333 inset;
+}
+
+#yalala{
+    display: none;
+}

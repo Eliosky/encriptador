@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="imagenes/firewallshield_114494.ico">
+    <title>Encriptador</title>
+    
+
+</head>
+
+
+
+<body>
+
+    <header>
+        <img class="logo" src="imagenes/sign-1086702_640.png" alt="logo">
+    </header>
+
+    <main>
+        <section class="parte1">
+            <div class="div">
+                <textarea name="input" class="textarea" id="textoEncriptado" cols="30" rows="10" placeholder="No ingrese mayusculas o numeros"></textarea>
+            <div class="btns">
+                <button class="btn" type="button" id="botonEncriptado">Encriptar</button>
+                <button class="btn" type="button" id="botonDesencriptado">Desencriptar</button>
+            </div>
+            </div>
+        </section>
+
+        <section class="parte2">
+            <div class="div">
+                <textarea name="output" class="textarea" id="textoDesencriptado" cols="30" rows="10"></textarea>
+                <div class="btns" id="yalala">
+                <button class="btn" type="button" id="botonCopiar">Copiar</button>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        By Elio Bareiro / Challenge Alura
+    </footer>
+
+</body>
+
+    <script>
+        var btn = document.querySelector('#botonEncriptado');
+        btn.onclick = encriptar;
+        var btn2 = document.querySelector('#botonDesencriptado');
+        btn2.onclick = desencriptar;
+        var btn3 = document.querySelector('#botonCopiar');
+        btn3.onclick = copiar;
+    </script>
+
+</html>
+
